@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- Document metadata -->
+
+  </head>
+  <body>
+    <!-- Document content --> 
+<h1>my petite-vue test</h1>    
+    <!-- anywhere on the page -->
+<div v-scope="{ count: 0 }">
+  {{ count }}
+  <button @click="count++">inc</button>
+</div>
+    <script src="https://unpkg.com/petite-vue"></script>
+
+  </body>
+</html>
