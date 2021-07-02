@@ -9,7 +9,9 @@
 <h1>my petite-vue test</h1>    
     <!-- anywhere on the page -->
     <span v-pre>{{ this will not be compiled }}</span>
+  
 <div v-scope>
+    <span v-once>This will never change: {{count}}</span>
   {{ count }}
    <!--<div v-effect="$el.textContent = count"></div>-->
   <button @click="count++">inc</button>
