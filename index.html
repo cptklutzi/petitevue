@@ -8,7 +8,7 @@
     <!-- Document content --> 
 <h1>my petite-vue test</h1>    
     <!-- anywhere on the page -->
-<div v-scope="{ count: 0 }">
+<div v-scope>
   {{ count }}
    <div v-effect="$el.textContent = count"></div>
   <button @click="count++">inc</button>
